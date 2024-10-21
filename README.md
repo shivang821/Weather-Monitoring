@@ -32,17 +32,15 @@ The frontend provides a user interface to display weather data and summaries for
   1. Switch to backend
      cd backend
   2. Update application properties:
-     Configure the database and API key in src/main/resources/application.properties:
-      ### MySQL Database configuration
+      spring.application.name=WeatherMonitoringBackend
       spring.datasource.url=jdbc:mysql://localhost:3306/weatherdb
-      spring.datasource.username=your-username
-      spring.datasource.password=your-password
-
-      ### Hibernate configuration
+      spring.datasource.username=username
+      spring.datasource.password=your_password
+      
       spring.jpa.hibernate.ddl-auto=update
-
-      ### OpenWeather API key
-      openweather.api.key=your-api-key
+      spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
+      #spring.jpa.show-sql=true
+      openweather.api.key=your_openweather_api_key
   3. Install dependencies:
      mvn clean install
   4. Start backend server
