@@ -43,7 +43,8 @@ The frontend provides a user interface to display weather data and summaries for
 
       ### OpenWeather API key
       openweather.api.key=your-api-key
-  3. Build and run the project:
-       mvn clean install
-       mvn spring-boot:run
+  3. Install dependencies:
+     mvn clean install
+  4. Start backend server
+     mvn spring-boot:run or if you are using Intillij idea the press Alt+shift+f10
    
