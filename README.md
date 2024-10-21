@@ -44,6 +44,6 @@ The frontend provides a user interface to display weather data and summaries for
       ### OpenWeather API key
       openweather.api.key=your-api-key
   3. Build and run the project:
-     mvn clean install
-     mvn spring-boot:run
+       mvn clean install
+       mvn spring-boot:run
    
