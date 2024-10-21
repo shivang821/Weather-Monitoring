@@ -1,0 +1,27 @@
+.weather-card {
+    background: rgba(187, 187, 187, 0.274);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 5px;
+    margin: 2px;
+    width: 70%;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    background-size: cover;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  .weather-card>div{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    padding-left: 5rem;
+  }
+  /* .weather-card:hover {
+    transform: scale(1.05);
+  }
+   */
+  
