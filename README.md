@@ -53,12 +53,8 @@ The frontend provides a user interface to display weather data and summaries for
   1. Switch to backend (first move to parent directory)
      
      cd backend
-
-  2. Install dependencies:
      
-     mvn clean install
-     
-  3. Update application properties:
+  2. Update application properties:
      
       spring.application.name=WeatherMonitoringBackend
      
@@ -75,6 +71,10 @@ The frontend provides a user interface to display weather data and summaries for
       #spring.jpa.show-sql=true
      
       openweather.api.key=your_openweather_api_key
+
+  2. Install dependencies:
+     
+     mvn clean install
      
   4. Start backend server
      
