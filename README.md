@@ -53,6 +53,10 @@ The frontend provides a user interface to display weather data and summaries for
   1. Switch to backend (first move to parent directory)
      
      cd backend
+
+  2. Install dependencies:
+     
+     mvn clean install
      
   3. Update application properties:
      
@@ -72,11 +76,7 @@ The frontend provides a user interface to display weather data and summaries for
      
       openweather.api.key=your_openweather_api_key
      
-  5. Install dependencies:
-     
-     mvn clean install
-     
-  6. Start backend server
+  4. Start backend server
      
      mvn spring-boot:run 
    
