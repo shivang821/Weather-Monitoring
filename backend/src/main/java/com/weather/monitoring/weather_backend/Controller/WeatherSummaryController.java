@@ -10,19 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
-//@RestController
-//public class WeatherSummaryController {
-//
-//    @Autowired
-//    private WeatherService weatherService;
-//
-//    @GetMapping("/city/{city}")
-//    public List<WeatherSummary> getWeatherSummary(@PathVariable String city) {
-//        // Get past 7 days + today’s summary
-//        return weatherService.getWeatherSummaryForPastDays(city, 7);
-//    }
-//}
-
 @RestController
 public class WeatherSummaryController {
 

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6bf50293-e201-477a-8836-bcded925383f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/weather/monitoring/weather_backend/Controller/WeatherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/weather/monitoring/weather_backend/Controller/WeatherController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/weather/monitoring/weather_backend/Controller/WeatherSummaryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/weather/monitoring/weather_backend/Controller/WeatherSummaryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/weather/monitoring/weather_backend/Model/WeatherData.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/weather/monitoring/weather_backend/Model/WeatherData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/weather/monitoring/weather_backend/Model/WeatherSummary.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/weather/monitoring/weather_backend/Model/WeatherSummary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/weather/monitoring/weather_backend/Repository/WeatherDataRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/weather/monitoring/weather_backend/Repository/WeatherDataRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/weather/monitoring/weather_backend/Repository/WeatherSummaryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/weather/monitoring/weather_backend/Repository/WeatherSummaryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/weather/monitoring/weather_backend/Service/WeatherDataService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/weather/monitoring/weather_backend/Service/WeatherDataService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/weather/monitoring/weather_backend/Service/WeatherScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/weather/monitoring/weather_backend/Service/WeatherScheduler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/weather/monitoring/weather_backend/Service/WeatherService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/weather/monitoring/weather_backend/Service/WeatherSummaryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/weather/monitoring/weather_backend/Service/WeatherSummaryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/weather/monitoring/weather_backend/Service/WeatherUpdateScheduler.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2nmj8VWxiUocUk3iK2XfpRBxyaP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6bf50293-e201-477a-8836-bcded925383f" name="Changes" comment="" />
+      <created>1729584990111</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1729584990111</updated>
+    </task>
+    <servers />
+  </component>
+</project>

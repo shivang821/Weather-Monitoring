@@ -8,12 +8,7 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Optional;
-//import java.util.Optional;
 
-//@Repository
-//public interface WeatherDataRepository extends JpaRepository<WeatherData, Long> {
-//    List<WeatherData> findByCityAndTimestampBetween(String city, LocalDateTime start, LocalDateTime end);
-//}
 @Repository
 public interface WeatherDataRepository extends JpaRepository<WeatherData, Long> {
     Optional<WeatherData> findByCityAndDate(String city, LocalDate date);

@@ -84,79 +84,19 @@ public class WeatherSummary {
     public void setDate(LocalDate date) {
         this.date = date;
     }
+
+    @Override
+    public String toString() {
+        return "WeatherSummary{" +
+                "id=" + id +
+                ", city='" + city + '\'' +
+                ", minTemp=" + minTemp +
+                ", maxTemp=" + maxTemp +
+                ", avgTemp=" + avgTemp +
+                ", weatherCondition='" + weatherCondition + '\'' +
+                ", windSpeed=" + windSpeed +
+                ", date=" + date +
+                '}';
+    }
 }
-
-//@Entity
-//@Table(name = "daily_summary")
-//public class WeatherSummary {
-//    @Id
-//    @GeneratedValue(strategy = GenerationType.IDENTITY)
-//    private Long id;
-//
-//    private String city;
-//    private LocalDate date;
-//    private double averageTemperature;
-//    private double maxTemperature;
-//    private double minTemperature;
-//    private String dominantWeatherCondition;
-//
-//    // getters and setters
-//
-//    public Long getId() {
-//        return id;
-//    }
-//
-//    public void setId(Long id) {
-//        this.id = id;
-//    }
-//
-//    public String getCity() {
-//        return city;
-//    }
-//
-//    public void setCity(String city) {
-//        this.city = city;
-//    }
-//
-//    public LocalDate getDate() {
-//        return date;
-//    }
-//
-//    public void setDate(LocalDate date) {
-//        this.date = date;
-//    }
-//
-//    public double getAverageTemperature() {
-//        return averageTemperature;
-//    }
-//
-//    public void setAverageTemperature(double averageTemperature) {
-//        this.averageTemperature = averageTemperature;
-//    }
-//
-//    public double getMaxTemperature() {
-//        return maxTemperature;
-//    }
-//
-//    public void setMaxTemperature(double maxTemperature) {
-//        this.maxTemperature = maxTemperature;
-//    }
-//
-//    public double getMinTemperature() {
-//        return minTemperature;
-//    }
-//
-//    public void setMinTemperature(double minTemperature) {
-//        this.minTemperature = minTemperature;
-//    }
-//
-//    public String getDominantWeatherCondition() {
-//        return dominantWeatherCondition;
-//    }
-//
-//    public void setDominantWeatherCondition(String dominantWeatherCondition) {
-//        this.dominantWeatherCondition = dominantWeatherCondition;
-//    }
-
-//}
 

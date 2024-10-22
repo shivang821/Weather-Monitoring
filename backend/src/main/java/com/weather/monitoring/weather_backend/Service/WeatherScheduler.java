@@ -15,9 +15,9 @@ public class WeatherScheduler {
     @Autowired
     private WeatherSummaryService dailySummaryService;
 
-    @Scheduled(fixedRate = 120000) // Runs every 2 minute
+    @Scheduled(fixedRate = 300000) // Runs every 2 minute
     public void updateWeatherData() {
-        List<String> cities = Arrays.asList("Delhi", "Mumbai", "Chennai", "Bangalore", "Kolkata", "Hyderabad");
+        List<String> cities = Arrays.asList("Delhi", "Mumbai", "Chennai", "Bangalore", "Kolkata", "Hyderabad","Jaipur");
 
         cities.forEach(city -> {
             try {
