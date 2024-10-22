@@ -3,35 +3,59 @@ The frontend provides a user interface to display weather data and summaries for
 
 # clone the repsitory
   git clone https://github.com/shivang821/Weather-Monitoring.git
+
+  cd Weather-Monitoring
+  
 # Frontend Setup
-  Prerequisites
+  Prerequisites:
+  
   Node.js
+  
   npm or yarn
   
   ## Installation
   1. Switch to frontend:
+     
      cd frontend
-  2. Install dependencies:
+     
+  3. Install dependencies:
+     
      npm install
+     
      or
+     
      yarn install
-  3. Start the frontend server after starting backend server :
+     
+  5. Start the frontend server after starting backend server :
+     
      npm run dev
+     
      or
+     
      yarn dev
      
      The frontend will run on http://localhost:3000.
 
 # Backend Setup
-  Prerequisites
+
+  Prerequisites:
+  
   Java 11 or later
+  
   Intellij idea prefered
+  
   Maven
+  
   MySQL or other relational database
+  
   ## Installation
-  1. Switch to backend
+  
+  1. Switch to backend (first move to parent directory)
+     
      cd backend
+     
   2. Update application properties:
+     
       spring.application.name=WeatherMonitoringBackend
      
       spring.datasource.url=jdbc:mysql://localhost:3306/weatherdb
@@ -47,12 +71,12 @@ The frontend provides a user interface to display weather data and summaries for
       #spring.jpa.show-sql=true
      
       openweather.api.key=your_openweather_api_key
-     
-  4. Install dependencies:
+
+  2. Install dependencies:
      
      mvn clean install
      
-  6. Start backend server
+  4. Start backend server
      
      mvn spring-boot:run 
    
