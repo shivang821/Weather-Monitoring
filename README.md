@@ -3,6 +3,9 @@ The frontend provides a user interface to display weather data and summaries for
 
 # clone the repsitory
   git clone https://github.com/shivang821/Weather-Monitoring.git
+
+  cd Weather-Monitoring
+  
 # Frontend Setup
   Prerequisites
   Node.js
