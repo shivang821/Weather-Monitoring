@@ -33,8 +33,11 @@ The frontend provides a user interface to display weather data and summaries for
   MySQL or other relational database
   ## Installation
   1. Switch to backend
+     
      cd backend
-  2. Update application properties:
+     
+  3. Update application properties:
+     
       spring.application.name=WeatherMonitoringBackend
      
       spring.datasource.url=jdbc:mysql://localhost:3306/weatherdb
@@ -51,7 +54,7 @@ The frontend provides a user interface to display weather data and summaries for
      
       openweather.api.key=your_openweather_api_key
      
-  4. Install dependencies:
+  5. Install dependencies:
      
      mvn clean install
      
