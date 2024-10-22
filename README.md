@@ -7,32 +7,50 @@ The frontend provides a user interface to display weather data and summaries for
   cd Weather-Monitoring
   
 # Frontend Setup
-  Prerequisites
+  Prerequisites:
+  
   Node.js
+  
   npm or yarn
   
   ## Installation
   1. Switch to frontend:
+     
      cd frontend
-  2. Install dependencies:
+     
+  3. Install dependencies:
+     
      npm install
+     
      or
+     
      yarn install
-  3. Start the frontend server after starting backend server :
+     
+  5. Start the frontend server after starting backend server :
+     
      npm run dev
+     
      or
+     
      yarn dev
      
      The frontend will run on http://localhost:3000.
 
 # Backend Setup
-  Prerequisites
+
+  Prerequisites:
+  
   Java 11 or later
+  
   Intellij idea prefered
+  
   Maven
+  
   MySQL or other relational database
+  
   ## Installation
-  1. Switch to backend
+  
+  1. Switch to backend (first move to parent directory)
      
      cd backend
      
