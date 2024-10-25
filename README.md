@@ -42,11 +42,11 @@ The frontend provides a user interface to display weather data and summaries for
   
    Java 22 (copy the your system java versioin in pom.xml. This project has java 22)
   
-  Intellij idea prefered
+   Intellij idea prefered
   
-  Maven
+   Maven
   
-  MySQL or other relational database
+   MySQL or other relational database
   
   ## Installation
   
@@ -78,5 +78,11 @@ The frontend provides a user interface to display weather data and summaries for
      
   4. Start backend server
      
-     mvn spring-boot:run 
+     mvn spring-boot:run
+     
+# Database Setup
+Please ensure that a MySQL database named `weatherdb` is already created on your system before running the application. The application will automatically create the required tables in this database. You can create the database using the following MySQL command:
+
+```sql
+CREATE DATABASE weatherdb;
    
