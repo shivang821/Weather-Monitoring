@@ -40,7 +40,7 @@ The frontend provides a user interface to display weather data and summaries for
 
   Prerequisites:
   
-  Java 11 or later
+   Java 22 (copy the your system java versioin in pom.xml. This project has java 22)
   
   Intellij idea prefered
   
