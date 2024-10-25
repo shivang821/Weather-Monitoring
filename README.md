@@ -85,4 +85,6 @@ Please ensure that a MySQL database named `weatherdb` is already created on your
 
 ```sql
 CREATE DATABASE weatherdb;
+```
+# Note: To ensure accurate and up-to-date weather data, the Weather Monitoring application requires the server to be running continuously (24/7). This allows the application to collect data at specified intervals and update the temperature summary, including minimum, maximum, and average temperatures for each city. If the server is not running continuously, the displayed data in the frontend may not reflect recent updates, resulting in outdated information. It is crucial that the server remains active to maintain data accuracy and consistency.
    
